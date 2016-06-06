@@ -7,3 +7,5 @@ notifications:
 script:
   - cargo build
   - cargo test
+  - ./pass.sh
+  - ./fail.sh
